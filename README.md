@@ -33,7 +33,7 @@ Check out the live demo of Directional Cursors [here](https://codepen.io/abdul-1
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/directional-cursors.git
+https://github.com/abdul-1432/Directional_Cursor
 ```
 
 2. Navigate to the project directory:
