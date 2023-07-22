@@ -7,7 +7,7 @@ Directional Cursors is a fun and interactive project that enhances the user expe
 
 ## Table of Contents
 
-- [Demo](#demo)
+- [Demo](https://codepen.io/abdul-1432/pen/bGQjoOb)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -17,9 +17,8 @@ Directional Cursors is a fun and interactive project that enhances the user expe
 
 ## Demo
 
-Check out the live demo of Directional Cursors [here](https://your-demo-link.com).
+Check out the live demo of Directional Cursors [here](https://codepen.io/abdul-1432/pen/bGQjoOb).
 
-![Directional Cursors Demo](demo.gif)
 
 ## Features
 
@@ -49,11 +48,11 @@ cd directional-cursors
 
 To integrate Directional Cursors into your website, follow these simple steps:
 
-1. Copy the `css` and `js` directories into your project's root directory.
+1. Copy the `CSS` and `js directories into your project's root directory.
 
 2. Include the necessary CSS and JS files in your HTML file:
 
-```html
+```HTML
 <head>
   <!-- ... -->
   <link rel="stylesheet" href="css/directional-cursors.css">
@@ -66,7 +65,7 @@ To integrate Directional Cursors into your website, follow these simple steps:
 
 3. Initialize the directional cursors in your JavaScript:
 
-```html
+```HTML
 <script>
   // Initialize directional cursors
   DirectionalCursors.init();
@@ -81,9 +80,9 @@ Directional Cursors provides a set of options that you can customize to match yo
 
 ```javascript
 const options = {
-  cursorType: "default",
-  cursorSize: 24,
-  defaultCursor: true,
+  cursory: "default",
+  cursor size: 24,
+  default cursor: true,
   color: "#FF5733",
   // Add more options here as needed
 };
@@ -91,11 +90,11 @@ const options = {
 
 - `cursorType`: The type of cursor to display. You can choose between "default" or "custom". When set to "custom", make sure to define your custom cursor in the CSS file.
 
-- `cursorSize`: The size of the cursor in pixels.
+- `cursor size`: The size of the cursor in pixels.
 
-- `defaultCursor`: Set this to `true` if you want to keep the default system cursor when hovering over non-interactive elements.
+- `default cursor`: Set this to `true` if you want to keep the default system cursor when hovering over non-interactive elements.
 
-- `color`: The color of the cursor. You can use any valid CSS color value.
+- `Color`: The color of the cursor. You can use any valid CSS color value.
 
 Feel free to experiment with these options to achieve the desired visual effect.
 
@@ -111,7 +110,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 ---
